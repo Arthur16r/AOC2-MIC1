@@ -1,0 +1,14 @@
+/* Quartus symbol - interface from Pedro CONTROL_UNIT schematic */
+(header "symbol" (version "1.2"))
+(symbol
+ (rect 16 16 272 160)
+ (text "CONTROL_UNIT" (rect 5 0 125 14)(font "Arial" (font_size 8)))
+ (text "inst" (rect 8 128 25 140)(font "Arial" ))
+ (port (pt 0 32)(input)(text "CLOCK" (rect 0 0 120 14)(font "Arial" (font_size 8)))(text "CLOCK" (rect 21 27 145 41)(font "Arial" (font_size 8)))(line (pt 0 32)(pt 16 32)))
+ (port (pt 0 48)(input)(text "N" (rect 0 0 120 14)(font "Arial" (font_size 8)))(text "N" (rect 21 43 145 57)(font "Arial" (font_size 8)))(line (pt 0 48)(pt 16 48)))
+ (port (pt 0 64)(input)(text "Z" (rect 0 0 120 14)(font "Arial" (font_size 8)))(text "Z" (rect 21 59 145 73)(font "Arial" (font_size 8)))(line (pt 0 64)(pt 16 64)))
+ (port (pt 0 80)(input)(text "MBR_IN[7..0]" (rect 0 0 120 14)(font "Arial" (font_size 8)))(text "MBR_IN[7..0]" (rect 21 75 145 89)(font "Arial" (font_size 8)))(line (pt 0 80)(pt 16 80)(line_width 3)))
+ (port (pt 256 32)(output)(text "MIR[35..0]" (rect 0 0 80 14)(font "Arial" (font_size 8)))(text "MIR[35..0]" (rect 150 27 235 41)(font "Arial" (font_size 8)))(line (pt 256 32)(pt 240 32)(line_width 3)))
+ (port (pt 256 48)(output)(text "MPC[8..0]" (rect 0 0 80 14)(font "Arial" (font_size 8)))(text "MPC[8..0]" (rect 150 43 235 57)(font "Arial" (font_size 8)))(line (pt 256 48)(pt 240 48)(line_width 3)))
+ (drawing (rectangle (rect 16 16 240 128)))
+)

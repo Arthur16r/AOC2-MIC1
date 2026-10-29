@@ -1,0 +1,8 @@
+# Pastas geradas pelo Quartus
+db/
+incremental_db/
+output_files/
+.qsys_edit/
+
+# Backups
+*.bak
